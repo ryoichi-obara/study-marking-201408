@@ -54,10 +54,11 @@ public class Kadai {
 }
 ```
 
-引数：  
-    anInputPath (フルパスで****.txtまで指定する)  
-戻り値：  
-    データの点数の積の合計  
+引数
+* `anInputPath` : フルパスで****.txtまで指定する  
+
+戻り値
+* データの点数の積の合計  
 
 
 ## 問２
@@ -87,11 +88,12 @@ public class Kadai {
 }
 ```
 
-引数：  
-    anInputPath  (フルパスで*****.txtまで指定する)  
-    anOutputPath (フルパスで*****.txtまで指定する)  
-戻り値：  
-    なし  
+引数
+* `anInputPath` : フルパスで****.txtまで指定する  
+* `anOutputPath` : フルパスで****.txtまで指定する  
+
+戻り値
+* なし  
 
 
 ### エラーコード
