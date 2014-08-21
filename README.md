@@ -42,7 +42,7 @@ nとデータの点数の積の合計を求める関数を作成してくださ�
 package jp.ktsystem.studymarking.kadai201407.xxxx; // xxxxの部分は受講者のドメインアカウント名
 
 public class Kadai {
-  public static long calcScoreSum(String anInputPath);
+  public static long calcScoreSum(String anInputPath) throws KadaiException;
 }
 ```
 
@@ -50,7 +50,7 @@ public class Kadai {
 namespace jp.ktsystem.studymarking.kadai201407.xxxx; // xxxxの部分は受講者のドメインアカウント名
 
 public class Kadai {
-  public static long CalcScoreSum(string anInputPath);
+  public static long CalcScoreSum(string anInputPath) throws KadaiException;
 }
 ```
 
@@ -102,6 +102,6 @@ public class Kadai {
 
 | エラーコード | 内容 |
 |--:|:-----------------------|
-| 1 | ファイルの入出力エラー |
+| 1 | ファイルの入出力エラー(入力ファイルパスや出力ファイルパスがnullや存在しない場合、ディレクトリを指定している場合も含む)  |
 | 2 | データ内部に半角英字以外の文字が存在した |
 | 3 | その他のエラー |
